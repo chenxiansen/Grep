@@ -1,0 +1,19 @@
+{
+    "name": "smater/grep",
+    "description": "Linux常用命令查找",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "smater",
+            "email": "001@chenframe.com"
+        }
+    ],
+   "autoload": {
+        "psr-4": {
+            src\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
