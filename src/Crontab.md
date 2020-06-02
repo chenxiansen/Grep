@@ -13,10 +13,11 @@
     service crond restart 重启服务
     service crond reload  重新载入配置
     service crond status  查看状态
-##配置参数
+配置参数
 ----
     * * * * * /command path  
-    #####前5个字段分别表示：
+前5个字段分别表示：
+----
     分钟：0-59
     小时：1-23
     日期：1-31
@@ -50,14 +51,14 @@
 ##附录
 ----
     例1：30 2 * * * /data/app/scripts/hotbackup/hot_database_backup.sh &
-    & 后台执行命令
+    & 表示后台执行命令
     
     例2：command >out.file 2>&1 &
     2>&1表示所有的标准输出和错误输出都将被重定向到一个叫做out.file 的文件中。
     0表示键盘输入，1表示标准输出，2表示错误输出
     
     例3：0 2 * * * /u01/test.sh >/dev/null 2>&1 &
-    这句话的意思就是在后台执行这条命令，并将错误输出2重定向到标准输出1，
+    在后台执行这条命令，并将错误输出2重定向到标准输出1，
     然后将标准输出1全部放到/dev/null 文件，也就是清空。
     
     
