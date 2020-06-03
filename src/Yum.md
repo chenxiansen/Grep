@@ -1,5 +1,4 @@
-Yum常用命令
-====
+### Yum常用命令
     yum search  xxxx        查找某个包
     yum install xxxx        安装某个包
     yum remove  xxxx        删除某个包
@@ -23,9 +22,8 @@ Yum常用命令
     yum grooupupdate  xxxx  更新指定软件组的软件包
     yum grooupremove  xxxx  卸载指定软件组中的软件包
     yum list yum\*          列出所有以yum开头的软件包
-清除YUM缓存
-----
- #####yum 会把下载的软件包和header存储在cache中，而不会自动删除。
+### 清除YUM缓存
+##### yum 会把下载的软件包和header存储在cache中，而不会自动删除。
     yum clean packages          清除缓存目录(/var/cache/yum)下的软件包
     yum clean headers           清除缓存目录(/var/cache/yum)下的 headers
     yum clean oldheaders        清除缓存目录(/var/cache/yum)下旧的 headers
