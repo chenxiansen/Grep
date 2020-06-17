@@ -1,15 +1,15 @@
 ### Ps常用命令
-    ps  
-    PID: 运行着的命令(CMD)的进程编号    
-    TTY: 命令所运行的位置（终端）    
-    TIME: 运行着的该命令所占用的CPU处理时间    
-    CMD: 该进程所运行的命令
+    ps      默认什么参数都不加
+    PID:    运行着的命令(CMD)的进程编号    
+    TTY:    命令所运行的位置（终端）    
+    TIME:   运行着的该命令所占用的CPU处理时间    
+    CMD:    该进程所运行的命令
     
 ![Image text](./img/ps/ps.jpg)  
 
     ps -ax                          -a 代表 all，同时加上x参数会显示没有控制终端的进程。
     ps -u www                       -u 代表要查看用户 'www' 的进程
-    ps -aux                         通过cpu和内存使用来过滤进程
+    ps -aux                         通过 CPU 和内存使用来过滤进程
     ps -aux --sort -pcpu | more     根据 CPU 使用来升序排序
     
 ![Image text](./img/ps/ps_aux__sort_pcpu.jpg)  
