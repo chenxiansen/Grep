@@ -6,4 +6,5 @@ Linux常用命令集合
  [yum](https://github.com/chenxiansen/Grep/blob/master/src/Yum.md)   |
  [mysql](https://github.com/chenxiansen/Grep/blob/master/src/Mysql.md)  | 
  [composer](https://github.com/chenxiansen/Grep/blob/master/src/Composer.md)  | 
- [ps](https://github.com/chenxiansen/Grep/blob/master/src/Ps.md)
+ [ps](https://github.com/chenxiansen/Grep/blob/master/src/Ps.md)  |
+ [grep](https://github.com/chenxiansen/Grep/blob/master/src/Grep.md)  |
