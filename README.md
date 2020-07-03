@@ -9,3 +9,4 @@ Linux常用命令集合
  [ps](https://github.com/chenxiansen/Grep/blob/master/src/Ps.md)  |
  [grep](https://github.com/chenxiansen/Grep/blob/master/src/Grep.md)  |
  [find](https://github.com/chenxiansen/Grep/blob/master/src/Find.md)  |
+ [lsof](https://github.com/chenxiansen/Grep/blob/master/src/Lsof.md)  |
